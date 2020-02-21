@@ -29,7 +29,7 @@ class Stack():
 def traverse(room_graph):
     #Create an empty stack for our path
     path = Stack()
-    path.push([0])
+    path.push(0)
     #Create an array of our guided path
     dir_guide = []
     #empty set to store visited nodes
